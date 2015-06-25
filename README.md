@@ -7,12 +7,13 @@ N-Body-Simulation
 
 Lewis & Clark College - summer 2012
 
-You'll need the x11 library in order to run this program.
+#Run this on Mac OSX
+
+You'll need the x11 library in order to run this program: http://xquartz.macosforge.org/landing/
   
 Compile the program with:
 
-```gcc n-body.c `pkg-config --cflags --libs x11` -lm```
-
+`n-body.c -I/opt/X11/include -L/opt/X11/lib -lm -lX11`
 
 run with:
 
