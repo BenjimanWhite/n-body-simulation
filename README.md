@@ -7,7 +7,7 @@ N-Body-Simulation
 
 Lewis & Clark College - summer 2012
 
-#Run this on Mac OSX
+######Run this on Mac OSX
 
 You'll need the x11 library in order to run this program: http://xquartz.macosforge.org/landing/
   
